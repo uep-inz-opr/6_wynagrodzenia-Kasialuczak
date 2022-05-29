@@ -10,7 +10,7 @@ class Wynagrodzenie:
    a=round(self.brutto-skladki,2)
    b=round(a*0.09,2)
    dop=round(a*0.0775,2)
-   poz=round(self.brutto-139.25-skladki,0)
+   poz=round(self.brutto-145.25-skladki,0)
    zpdpo=round((poz*0.18)-46.33,2)
    zpddp=round(zpdpo-dop,0)
    n=round(self.brutto-skladki-b-zpddp,2)
